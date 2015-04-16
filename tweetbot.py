@@ -9,9 +9,9 @@ time.sleep(3)
 print "Logging into Twitter"
 form = driver.find_element_by_class_name('front-signin')
 username = form.find_element_by_name("session[username_or_email]")
-username.send_keys('')
+username.send_keys('Paste your username')
 password = form.find_element_by_name("session[password]")
-password.send_keys('')
+password.send_keys('Password Madafakar')
 password.send_keys(Keys.RETURN)
 print "Logged into twitter"
 time.sleep(5)
